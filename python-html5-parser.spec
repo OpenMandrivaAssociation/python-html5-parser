@@ -13,6 +13,7 @@ BuildRequires:  python2-devel
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
 BuildRequires:  python2-setuptools
+BuildRequires:	pkgconfig(libxml-2.0)
 
 %description
 A fast implementation of the HTML 5 parsing spec for Python. 
