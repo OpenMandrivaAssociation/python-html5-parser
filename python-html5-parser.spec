@@ -10,7 +10,7 @@ License:        ASL 2.0
 Group:          Development/Python
 Url:            http://pypi.python.org/pypi/html5-parser/
 BuildRequires:  python2-devel
-BuildRequires:  python-devel
+BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
 BuildRequires:  python2-setuptools
 BuildRequires:	pkgconfig(libxml-2.0)
