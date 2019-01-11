@@ -1,11 +1,11 @@
 %define oname   html5-parser
 
 Name:           python-%{oname}
-Version:        0.4.4
+Version:        0.4.5
 Release:        1
 Summary:        Fast C based HTML 5 parsing for python
 
-Source0:        http://pypi.python.org/packages/source/s/html5-parser/html5-parser-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/source/h/html5-parser/html5-parser-%{version}.tar.gz
 License:        ASL 2.0
 Group:          Development/Python
 Url:            http://pypi.python.org/pypi/html5-parser/
@@ -35,20 +35,20 @@ cp -a python2 python3
 
 %build
 pushd python2
-%{__python2} setup.py build
+python setup.py build
 popd
 
 pushd python3
-python3 setup.py build
+%py3_build
 popd
 
 %install
 pushd python2
-%{__python2} setup.py install --root=%{buildroot}
+python setup.py install --root=%{buildroot}
 popd
 
 pushd python3
-%{__python} setup.py install --root=%{buildroot}
+python setup.py install --root=%{buildroot}
 popd
 
 %files
@@ -60,4 +60,3 @@ popd
 %doc python2/LICENSE python2/README.rst
 %{py2_platsitedir}/html5_parser-%{version}-*.egg-info
 %{py2_platsitedir}/html5_parser
-

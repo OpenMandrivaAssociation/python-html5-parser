@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   html5-parser-0.4.4.tar.gz: 9579d7f2a413ae07c86f2ab058fbe97c8a51e1a8
+sources:
+  html5-parser-0.4.5.tar.gz: b11e843820c108f05ebdf0d6a065446f9cc75641
