@@ -1,11 +1,11 @@
 %define oname   html5-parser
 
 Name:           python-%{oname}
-Version:        0.4.4
+Version:        0.4.5
 Release:        1
 Summary:        Fast C based HTML 5 parsing for python
 
-Source0:        http://pypi.python.org/packages/source/s/html5-parser/html5-parser-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/f6/f9/0cffbc45d00f94dd2e97061d81be86ca8efc452e7acd7a5020b67b682e40/html5-parser-%{version}.tar.gz
 License:        ASL 2.0
 Group:          Development/Python
 Url:            http://pypi.python.org/pypi/html5-parser/
@@ -27,6 +27,16 @@ the final tree is done in python.
 
 %package -n python2-html5-parser
 Summary: %{summary}
+
+%description -n python2-html5-parser
+A fast implementation of the HTML 5 parsing spec for Python 2. 
+Parsing is done in C using a variant of the gumbo parser.
+The gumbo parse tree is then transformed into an lxml tree,
+also in C, yielding parse times that can be a thirtieth of
+the html5lib parse times. That is a speedup of 30x.  This
+differs, for instance, from the gumbo python bindings, where 
+the initial parsing is done in C but the transformation into
+the final tree is done in python.
 
 %prep
 %setup -qc 
