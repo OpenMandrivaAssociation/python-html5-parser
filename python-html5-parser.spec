@@ -1,11 +1,11 @@
 %define oname   html5-parser
 
 Name:           python-%{oname}
-Version:	0.4.8
+Version:	0.4.9
 Release:	1
 Summary:        Fast C based HTML 5 parsing for python
 
-Source0:	https://files.pythonhosted.org/packages/54/10/dd41940feed7a7ca321708a232a6db685aca4dfad2d5cc18aba3028837af/html5-parser-0.4.8.tar.gz
+Source0:	https://files.pythonhosted.org/packages/a6/78/6a80c13be6c02fd2fb615b473a6ceff5b28bafca184f428ab197f677fd7a/html5-parser-%{version}.tar.gz
 License:        ASL 2.0
 Group:          Development/Python
 Url:            http://pypi.python.org/pypi/html5-parser/
