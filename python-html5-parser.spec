@@ -2,10 +2,10 @@
 
 Name:           python-%{oname}
 Version:	0.4.9
-Release:	2
+Release:	3
 Summary:        Fast C based HTML 5 parsing for python
 
-Source0:	https://files.pythonhosted.org/packages/a6/78/6a80c13be6c02fd2fb615b473a6ceff5b28bafca184f428ab197f677fd7a/html5-parser-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/h/html5-parser/html5-parser-%{version}.tar.gz
 License:        ASL 2.0
 Group:          Development/Python
 Url:            http://pypi.python.org/pypi/html5-parser/
@@ -70,4 +70,3 @@ popd
 %doc python2/LICENSE python2/README.rst
 %{py2_platsitedir}/html5_parser-%{version}-*.egg-info
 %{py2_platsitedir}/html5_parser
-
