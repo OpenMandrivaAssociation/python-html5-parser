@@ -8,7 +8,7 @@ Summary:        Fast C based HTML 5 parsing for python
 Source0:	https://files.pythonhosted.org/packages/source/h/html5-parser/html5-parser-%{version}.tar.gz
 License:        ASL 2.0
 Group:          Development/Python
-Url:            http://pypi.python.org/pypi/html5-parser/
+Url:            https://pypi.python.org/pypi/html5-parser/
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
 BuildRequires:	pkgconfig(libxml-2.0)
