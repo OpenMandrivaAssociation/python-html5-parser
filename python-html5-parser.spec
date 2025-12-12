@@ -2,7 +2,7 @@
 
 Name:           python-%{oname}
 Version:	0.4.12
-Release:	1
+Release:	2
 Summary:        Fast C based HTML 5 parsing for python
 
 Source0:	https://files.pythonhosted.org/packages/source/h/html5-parser/html5-parser-%{version}.tar.gz
