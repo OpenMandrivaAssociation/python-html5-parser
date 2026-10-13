@@ -3,7 +3,7 @@
 
 Name:		python-html5-parser
 Version:	0.4.12
-Release:	3
+Release:	4
 Summary:	Fast C based HTML 5 parsing for python
 License:	Apache-2.0
 Group:		Development/Python
@@ -16,7 +16,7 @@ Source0:	https://files.pythonhosted.org/packages/source/h/%{module}/%{module}-%{
 # Packages that consume them such as calibre will either fail to start or emit
 # runtime errors when doing basic operations.
 BuildSystem:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	python%{pyver}dist(beautifulsoup4)
 BuildRequires:	python%{pyver}dist(chardet)
